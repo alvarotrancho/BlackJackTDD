@@ -1,5 +1,11 @@
-package blackjack;
+package blackjacktdd;
 
+import blackjacktdd.BlackJack;
+import blackjacktdd.FigureCard;
+import blackjacktdd.NormalCard;
+import blackjacktdd.Player;
+import blackjacktdd.Card;
+import blackjacktdd.Ace;
 import java.util.ArrayList;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -164,6 +170,7 @@ public class BlackJackTest {
     Player 3: "9", "2", "A" (12)
     Croupier: "K", "6" (16)
     Deck: "K" , "3" , "Q" , "2" */
+    
 
     @Test
     public void test_3_BlackJackGame() {

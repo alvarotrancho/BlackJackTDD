@@ -1,8 +1,9 @@
-package blackjack;
+package blackjacktdd;
 
 import java.util.ArrayList;
 
 public class Player {
+    
     String nombre;
     ArrayList<Card> hand;
 
